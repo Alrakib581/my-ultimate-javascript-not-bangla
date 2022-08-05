@@ -26,4 +26,8 @@ console.log('Imran H sarkar');
 console.log('Abdulla Al Munabbir');
 console.log('Firoz Hasan');
 
+
+console.log(true);  //এগুলো বুলিয়ান 
+console.log(false);
+
 // console.log(); এর মাধ্যমে javascript এর কোড output দেখানোর  পদ্ধতি ।
