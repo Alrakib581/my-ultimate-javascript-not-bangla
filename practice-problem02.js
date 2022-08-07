@@ -79,15 +79,15 @@ const x = 130;
 const y = 79;
 const z = 105;
 
-if ( x > y){
-    console.log(x);
+if ( x > y){  
+    console.log(x); // if x greater than y
 }
 else if(x > z){
-    console.log(x);
+    console.log(x); // if x greater than z
 }
 else if(y > z){
-    console.log(y);
+    console.log(y); // if y greater than z
 }
 else{
-    console.log(z);
+    console.log(z); // if z greater than x and y
 }
