@@ -26,6 +26,13 @@
 //   animal.shift('python'); // প্রথমে cow remove হইছে।
 //   console.log(animal);
 
-var animal = ['cow', 'goat', 'ship', 'horse','donky', 'camel'];
-var cowRemove = animal.shift(); // প্রথমে cow remove হইছে। এবং যেহেতু cow বের করা মেথড টাকে একটি variable এর মধ্যে রাখছি। তাই বের করা মান টাকে ঐ variable এর ভ্যালু বা মান হিসাবে সেট হবে।
-  console.log(cowRemove);
+// var animal = ['cow', 'goat', 'ship', 'horse','donky', 'camel'];
+// var cowRemove = animal.shift(); // প্রথমে cow remove হইছে। এবং যেহেতু cow বের করা মেথড টাকে একটি variable এর মধ্যে রাখছি। তাই বের করা মান টাকে ঐ variable এর ভ্যালু বা মান হিসাবে সেট হবে।
+//   console.log(cowRemove);
+
+
+//  array তে kibhabe .slice(); method use korbo ?
+let number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11];
+console.log(number);
+let katlam = number.slice(2, 5);
+console.log(katlam);
