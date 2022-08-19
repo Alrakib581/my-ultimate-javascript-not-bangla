@@ -60,12 +60,12 @@
 //     console.log(number);
 // }
 
-var numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 8, 7, 100];
+// var numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 8, 7, 100];
 
-for( var i = 0 ; i < numbers.length ; i++){
-    var number = numbers[i];
-    if( number > 40){
-        continue;
-    }
-    console.log(number);
-}
+// for( var i = 0 ; i < numbers.length ; i++){
+//     var number = numbers[i];
+//     if( number < 40){
+//         continue;
+//     }
+//     console.log(number);
+// }

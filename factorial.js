@@ -33,9 +33,24 @@
 //     console.log(i);
 // }
 
-function print ( a , b ,c){
-    return a+ b;
+// function print ( a , b ,c){
+//     return a+ b;
 
 
+// }
+// console.log(print(1,2,3));
+// let factorial = 1;
+
+// for(let i = 5; i >= 1; i--){
+//     factorial = factorial * i;
+// }
+// console.log(factorial);
+
+function factorial (i){
+    if(i == 1){
+        return 1;
+    }
+    return i * factorial(i-1);
 }
-console.log(print(1,2,3));
+const result = factorial(5);
+console.log(result);
